@@ -1,0 +1,92 @@
+    /* CSS styling */
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: purple;
+      }
+  
+      .container {
+        display: flex;
+        width: 600px;
+      }
+  
+      .form-side {
+        flex: 1;
+        background-color: #fff;
+        padding: 20px;
+      }
+  
+      .heading {
+        font-size: 24px;
+        margin-bottom: 10px;
+        position: relative; /* Add relative positioning */
+      }
+  
+      .heading::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 30px;
+        height: 2px;
+        background-color: purple;
+      }
+  
+      .input-group {
+        margin-bottom: 10px;
+      }
+  
+  
+      .input-group input {
+        width: 100%;
+        padding: 5px;
+        border-style: none;
+      }
+  
+      .input-group input::placeholder {
+        border-bottom: 1px solid purple;
+      }
+  
+      .login-button {
+        background-color: purple;
+        color: white;
+        padding: 10px 110px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 4px;
+      }
+  
+      .login-button:hover {
+        background-color:rgb(194, 115, 194);
+      }
+  
+      .links {
+        display: flex;
+        justify-content: flex-start; /* Align to the left */
+        margin-top: 10px;
+      }
+  
+      .links a {
+        color: purple;
+        text-decoration: none;
+        margin-left: 10px;
+      }
+  
+      .heading-side {
+        flex: 1;
+        background-image: url('purple.jpg');
+        background-size: cover;
+        color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: x-large;
+        font-weight: 500;
+      }
